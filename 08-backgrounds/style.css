@@ -1,0 +1,37 @@
+
+p {
+    color: #ff7f50;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.background {
+    background-color: #90ee90;
+    background-image: url('assets/img/cat.jpg'); 
+}
+
+.bg-image {
+    width: 450px;
+    height: 335px;
+}
+
+.bg-repeat {
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 325px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+
+}
+
+.bg-position {
+    background: #000 url(assets/img/cat.jpg) no-repeat left top;
+    height: 540px;
+}
